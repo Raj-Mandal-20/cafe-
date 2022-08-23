@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_section {
+    max-width: 1280px;
+    min-width: 1000px;
+    background-color: #f9e9cd;
+    margin: auto;
+    border-radius: 2rem;
+}
+.navbar{
+    display: flex;
+    flex-flow : row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aod{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap :  20px;
+}
+.search_add_to_cart{
+    display: flex;
+    flex-flow : row wrap;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+}
+.search_add_to_cart input{
+    max-width: 180px;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 2rem;
+    border : none;
+}
+.addto_cart{
+    max-width: 30px;
+}
+.middle{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding : 20px 0;
+    
+}
+
+
+.coffie_theme_image img{
+    width: 190px;
+    height: 190px;
+    border-radius: 21rem;
+}
+.orenge_cl{
+    color: #FF912C;
+}
+.coffie_ingradient{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.order{
+    background-color: #2F2105;
+    color : white;
+    padding : 5px 15px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.coffie_ingradient p{
+    color : hsl(51, 3%, 48%);
+}
+.order p{
+    color : white ;
+}
+.order p::after{
+    content : "";
+    background-color: #FF912C;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: #FF912C;
+    border-radius: 1rem;
+    font-size: 18px;
+}
+.order{
+     display: flex;
+     flex-wrap: row wrap;
+     justify-content: center;
+     align-items: center;
+}
+.bottom_dark_section{
+    margin-top: 200px;
+    max-height: 450px;
+    background-color: #FCA553;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-around;
+    border-radius: 2rem;   
+}
+.card_ingredient{
+    position: relative;
+    bottom: 150px;
+    max-width: 400px;
+    background-color: white;
+    padding : 20px;
+    border-radius: 0.5rem;
+    
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+    /* display: flex; */
+   
+}
+.card_content_details{
+    margin-top: 20px;
+    background-color: white;
+}
+.top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.bottom_section{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap : 20px;
+}
+.bottom_section button{
+    border : 2px solid #FF912C;
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 0.3rem;
+}
+.card_img img{
+    max-width: 250px;
+    border-radius: 0.5rem;
+}
+.bottom_section button{
+    cursor: pointer;
+}
+/* .coffie_theme_image{
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.36);
+    border-radius: 2rem;
+} */
